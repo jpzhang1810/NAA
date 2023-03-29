@@ -77,10 +77,11 @@ python verify.py --ori_path ./dataset/images/ --adv_path ./adv/NAA/
 If you find this work is useful in your research, please consider citing:
 
 ```
-@article{zhang2022improving,
-  title={Improving Adversarial Transferability via Neuron Attribution-Based Attacks},
+@inproceedings{zhang2022improving,
+  title={Improving adversarial transferability via neuron attribution-based attacks},
   author={Zhang, Jianping and Wu, Weibin and Huang, Jen-tse and Huang, Yizhan and Wang, Wenxuan and Su, Yuxin and Lyu, Michael R},
-  journal={arXiv preprint arXiv:2204.00008},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={14993--15002},
   year={2022}
 }
 ```
