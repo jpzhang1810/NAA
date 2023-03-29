@@ -25,6 +25,15 @@ You should download the  pretrained models from ( https://github.com/tensorflow/
 
 - `verify.py` : the code for evaluating generated adversarial examples on different models.
 
+#### Layer setting
+
+- inception_v3: InceptionV3/InceptionV3/Mixed_5b/concat
+
+- inception_v4: InceptionV4/InceptionV4/Mixed_5e/concat
+
+- inception_resnet_v2: InceptionResnetV2/InceptionResnetV2/Conv2d_4a_3x3/Relu
+
+- resnet_v2_152: resnet_v2_152/block2/unit_8/bottleneck_v2/add
   
 
 #### Example Usage
